@@ -276,6 +276,7 @@ private:
         gen5Array[156] = "Pokemon: Genesect";
     }
 	void givePokemonOdds() {
+		// this was going to be used but was leftover data from when i was makeing as a final project for intro to CSC
         float  oddsPerPokemon[157]{};
         oddsPerPokemon[0] = 0.0F;
         oddsPerPokemon[1] = 3.0F;
@@ -436,6 +437,7 @@ private:
         oddsPerPokemon[156] = 3.0F;
     }
      void givePokemonHp() {
+	     // also junk code that i was planing to help make it so i can catch pokemon but it is unused
          int gen5HpPokeValue[157]{};
         gen5HpPokeValue[1] = 404;
         gen5HpPokeValue[2] = 294;
@@ -510,6 +512,7 @@ private:
     }
 
 private:
+// the unused catch odds math stuff yaa all in java still as you know it was made in java 
 	/*void chatchingOddsToNames() {
         Random rand = new Random();
         int ultraBall = rand.nextInt(256);
